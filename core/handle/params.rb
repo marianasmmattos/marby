@@ -7,7 +7,7 @@ module Handle
       json_params = JSON.generate(params)
       symbolized_params = symbolize_recursive(json_params)
 
-      ::Handle::Params.new(symbolized_params)
+      ::Handle::Params.new(**symbolized_params)
     end
 
     private

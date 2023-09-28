@@ -54,7 +54,7 @@ module Handle
 
     def get_params
       params = JSON.parse(@request.body.read)
-      params = params.merge(@request.params)
+      params = params.merge(@request.params)     
 
       ::Handle::ParamsParser.call(params)
     end
