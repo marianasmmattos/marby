@@ -1,7 +1,7 @@
 require_relative 'config'
 
 class Application
-	def self.call
+  def self.call
     initialize_app(database_config)
   end
 
@@ -10,10 +10,9 @@ class Application
       adapter: '',
       user: '',
       password: '',
-      host: '',
+      host: 'localhost',
       port: 5432,
-      database: '',
-      max_connections: 
+      database: 'postgres'
     }
   end
 end
@@ -29,3 +28,5 @@ class Server
     @current.stop
   end
 end
+
+Server.new.start(Port: 3030)

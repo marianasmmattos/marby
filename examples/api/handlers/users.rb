@@ -10,4 +10,10 @@ class Users < ApplicationHandler
   def show
     render status: 200, type: 'html', body: '<h1>Hello!</h1>'
   end
+
+  def create
+    user = records { |data| data.insert(params.to_h) }
+
+    render status: 200, type: :json, body: user
+  end
 end
