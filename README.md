@@ -48,7 +48,7 @@ Um processo será inicializado na porta 3030. Você pode testar as respostas da 
 
 ## Useful links | Links úteis
 
-- [Crafting Interpreters](https://craftinginterpreters.com)
-- [So you want to write an interpreter?](https://www.youtube.com/watch?v=LCslqgM48D4)
-- [Let’s Build A Simple Interpreter. Part 1.](https://ruslanspivak.com/lsbasi-part1/)
-- [Challenge](https://github.com/aripiprazole/rinha-de-compiler/)
+- [Singleton pattern](https://refactoring.guru/design-patterns/singleton)
+- [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
+- [Making the web better. With blocks!](https://www.joelonsoftware.com/2022/01/27/making-the-web-better-with-blocks/)
+- [Composition vs. Inheritance: How to choose?](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose)
